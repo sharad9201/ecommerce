@@ -65,9 +65,9 @@ return [
     | the locations of the links and the values should be their targets.
     |
     */
-
+//path for image  uploads and others......must after php artisan storage:link
     'links' => [
-        public_path('storage') => storage_path('app/public'),
+        public_path('products') => storage_path('app/products'),
     ],
 
 ];
